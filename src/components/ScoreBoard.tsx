@@ -12,7 +12,7 @@ const ScoreBoard: React.FC<ScoreBoardProps> = ({
 }) => {
   const shareOnTwitter = () => {
     // Create the tweet text
-    const tweetText = `I just played Crab, Bird, Dog! My score: ${playerScore} - Computer: ${computerScore}. ${playerScore > computerScore ? "I'm winning! 🎉" : playerScore < computerScore ? "I'll get better! 💪" : "It's a tie! 🤝"} Come play this fun twist on Rock, Paper, Scissors! join this link to play .. support me follow @taufnashrul and support this project @SuccinctLabs`;
+    const tweetText = `I just played Crab, Bird, Dog! My score: ${playerScore} - Computer: ${computerScore}. ${playerScore > computerScore ? "I'm winning! 🎉" : playerScore < computerScore ? "I'll get better! 💪" : "It's a tie! 🤝"} Come play this fun twist on Rock, Paper, Scissors! join this link to play https://cbd-game.vercel.app/ support me follow @taufnashrul and support this project @SuccinctLabs`;
     
     // Encode the tweet text for a URL
     const encodedTweet = encodeURIComponent(tweetText);
