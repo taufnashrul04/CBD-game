@@ -172,7 +172,7 @@ const GameContainer: React.FC = () => {
 
         <div className="mt-6 text-center">
           <a
-            href="https://succinct-world.xyz"
+            href="https://prover-hub.vercel.app"
   className="inline-block text-sm text-blue-600 underline hover:text-blue-800 transition"
   target="_blank" rel="noopener noreferrer"
           >
